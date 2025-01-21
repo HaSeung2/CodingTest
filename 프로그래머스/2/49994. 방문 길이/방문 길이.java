@@ -15,8 +15,8 @@ class Solution {
                 case 'U' : 
                     if(x < 10){
                         x++;
-                        riversString = (x +  "")  + (y + "") + " " + str;
-                        str += " " + (x + "") + (y + "");
+                        riversString = (x +  "")  + (y + "") +  str;
+                        str += (x + "") + (y + "");
                         if(!(list.contains(str) || list.contains(riversString))){
                             answer++;
                             list.add(str);
@@ -27,8 +27,8 @@ class Solution {
                 case 'D' :
                     if(x > 0){
                         x--;
-                        riversString = (x +  "")  + (y + "") + " " + str;
-                        str += " " + (x + "") + (y + "");
+                        riversString = (x +  "")  + (y + "") +  str;
+                        str += (x + "") + (y + "");
                        if(!(list.contains(str) || list.contains(riversString))){
                             answer++;
                             list.add(str);
@@ -39,8 +39,8 @@ class Solution {
                 case 'R' :
                     if(y < 10){
                         y++;
-                        riversString = (x +  "")  + (y + "") + " " + str;
-                        str += " " + (x + "") + (y + "");
+                        riversString = (x +  "")  + (y + "") +  str;
+                        str += (x + "") + (y + "");
                         if(!(list.contains(str) || list.contains(riversString))){
                             answer++;
                             list.add(str);
@@ -51,8 +51,8 @@ class Solution {
                 case 'L' :
                     if(y > 0){
                         y--;
-                        riversString = (x +  "")  + (y + "") + " " + str;
-                        str += " " + (x + "") + (y + "");
+                        riversString = (x +  "")  + (y + "") +  str;
+                        str += (x + "") + (y + "");
                         if(!(list.contains(str) || list.contains(riversString))){
                             answer++;
                             list.add(str);
