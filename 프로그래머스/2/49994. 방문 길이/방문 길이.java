@@ -5,7 +5,6 @@ class Solution {
         int x = 5;
         int y = 5;
         List<String> list = new ArrayList<>();
-        List<String> riversList = new ArrayList<>();
         String riversString = "";
        
         for(int i = 0; i < dirs.length(); i++){
