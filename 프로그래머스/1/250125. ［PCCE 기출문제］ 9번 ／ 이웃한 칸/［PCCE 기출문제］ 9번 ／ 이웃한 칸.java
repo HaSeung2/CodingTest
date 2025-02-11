@@ -16,7 +16,7 @@ class Solution {
         }
         if(w > 0){
             if(board[h][w - 1].equals(color)){
-            answer++;
+                answer++;
             }
         }
         if(w < length){
